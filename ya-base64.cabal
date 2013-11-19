@@ -1,0 +1,17 @@
+name:           ya-base64
+version:        0.1
+cabal-version:  >=1.2
+build-type:     Simple
+author:         cerdep
+
+library
+  hs-source-dirs:  src
+  build-depends:   
+                   base >= 4,
+                   array,
+                   split,
+                   bytestring,
+                   containers
+  ghc-options:     -Wall
+  other-modules:   YABase64
+
